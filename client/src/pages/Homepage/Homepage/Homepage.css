@@ -1,0 +1,153 @@
+/* ... Any previous styles you might have ... */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: white;
+    border-top: 1px solid #dcdcdc;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.footer-company-name {
+    font-size: 24px; /* Enlarged font size */
+    font-weight: 600; /* Bold weight */
+    margin-right: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    margin-right: 20px;
+}
+
+/* ... Rest of the CSS ... */
+
+.footer-link {
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffcc00; /* Color change on hover */
+}
+
+
+
+
+.download-btn {
+    padding: 10px 25px; /* Increase padding for a larger button */
+    font-size: 18px; /* Enlarged font size */
+    font-weight: 600; /* Bold weight */
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #ffcc00; /* Slightly darker shade when hovered */
+}
+
+/* Homepage.css */
+
+.hero-section {
+    /* background: url('/Homepage.jpg') no-repeat center center;
+    background-size: cover;  */
+    height: 100vh; /* viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* for absolute positioning of the button */
+}
+
+
+.hero-content {
+    text-align: center;
+    z-index: 2; /* to ensure text is above the background */
+    color: #ffffff; /* or any preferred color for the text */
+}
+
+.get-started-btn {
+    background-color: #FFD700; /* yellow color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50px; /* rounded button */
+    position: absolute; /* absolute positioning */
+    bottom: 10%; /* positioning from the bottom */
+    left: 50%; /* centering */
+    transform: translateX(-50%); /* this will perfectly center the button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #FFC700;
+    transform: translateX(-50%) scale(1.05); /* subtle scaling effect on hover */
+}
+
+/* Homepage.css */
+
+/* ... other styles ... */
+
+/* CSS class to set text color to white */
+.white-text {
+    color: #ffffff;
+  }
+  
+  /* Style for the hero section */
+  .hero-section {
+    text-align: center;
+  }
+  
+  /* Style for the title in the hero section */
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Style for the subtitle in the hero section */
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  /* Style for the CTA button in the hero section */
+  .cta-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  

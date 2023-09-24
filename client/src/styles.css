@@ -1,0 +1,68 @@
+.hero-section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .search-section {
+    margin: 40px 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Resetting some default styles and setting the background image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../public/Homepage.jpg'); /* Update with your image's name if different */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 50px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Centralized content styles */
+.content {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* CTA button styles */
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+

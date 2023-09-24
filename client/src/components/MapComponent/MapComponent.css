@@ -1,0 +1,11 @@
+.map-component {
+    flex-grow: 1;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    right: 0; 
+
+  }
+  .container {
+    display: flex;
+    height: 100vh;  /* occupy full viewport height */
+}
